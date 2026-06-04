@@ -1,7 +1,14 @@
-# Windows system files
+# Logs and databases
+*.log
+*.sqlite
+
+# OS generated files
+.DS_Store
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Windows system files
 *.tmp
 ~$*
 
@@ -33,3 +40,21 @@ package-lock.json
 # NotebookLM and private
 notebooks.json
 *.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+/tmp/
+/temp/
+/geometry_output/
+/illustrations/
+exam_data.json
+geometry_spec.json
+geometry_mapping.json
+exam_output/
+exam_word_style.png
+*.docx
