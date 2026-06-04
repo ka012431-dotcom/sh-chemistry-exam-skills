@@ -58,3 +58,8 @@ geometry_mapping.json
 exam_output/
 exam_word_style.png
 *.docx
+
+# Local assignments and setup
+/試卷作業/
+/setup/
+/ANTIGRAVITY.md
